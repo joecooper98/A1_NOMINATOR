@@ -16,7 +16,7 @@ else:
 
 if random.random() < 0.15:
     no = str(random.randint(0, 999))
-elif random.random() < 0.4:
+elif random.random() < 0.3:
     no = str(random.randint(0, 99))
 else:
     no = str(random.randint(0,10))
