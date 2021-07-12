@@ -13,10 +13,11 @@ if random.random() < 0.1:
 else:
     st = availableletters[random.randint(0,len(availableletters)-1)]
 
-
-if random.random() < 0.15:
+rndmnmbr=random.random()
+    
+if rndmnmbr < 0.1:
     no = str(random.randint(0, 999))
-elif random.random() < 0.3:
+elif rndmnmbr < 0.3:
     no = str(random.randint(0, 99))
 else:
     no = str(random.randint(0,10))
